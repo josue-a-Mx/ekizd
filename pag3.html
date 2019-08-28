@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap">
+    <style>
+        body {
+            font-family: 'Indie Flower', cursive;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="contenido.html">Página 1</a>
+            <a href="pag2.html">Página 2</a>
+            <a href="#">Página 3</a>
+        </nav>
+    </header>
+    <hr>
+    <h1>Mira, acá hay otro título.</h1>
+    <h2>Mira, acá hay otro subtítulo.</h2><br>
+    <form>
+        <label for="name">Nombre <br>
+            <input type="text" name="name" placeholder="Ingresa tu nombre"></label><br>
+        <label for="lastname">Apellidos <br>
+            <input type="lastname" name="lastname" placeholder="Ingresa tus apellidos">
+            </label><br>
+        <label for="gender">Género <br>
+                <input type="radio" name="gender" value="Hombre">Hombre
+                <input type="radio" name="gender" value="Mujer">Mujer
+                <input type="radio" name="gender" value="Otro">Otro
+                <br>
+            </label>
+        <br>
+        <label for="city">Ciudad <br>
+        <select name="city">
+            <option value="valor">Selecciona una ciudad...</option>
+            <option value="CDMX">CDMX</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Cancún">Cancún</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Monterrey">Monterrey</option>
+            <option value="Torreón">Torreón</option>
+            <option value="León">León</option>
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="Mérida">Mérida</option>
+            <option value="Villahermosa">Villahermosa</option>
+        </select><br>
+       </label>
+        <br>
+        <label for="direccion"> Dirección <br>
+            <textarea name="direccion" placeholder="Ingresa tu dirección"></textarea><br>
+        </label>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+
+</html>
